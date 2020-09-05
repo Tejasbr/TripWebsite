@@ -1,0 +1,17 @@
+.steps{
+    display: flex;
+    margin-top: 210px;
+    margin-left: 243px;
+    margin-right: 243px;
+    /* background: black; */
+    color: lavender;
+    border-radius: 36px;
+    padding: 20px;
+    z-index: -1;
+    background: url("../img/main3.jpg");
+}
+.item{
+    padding: 15px;
+    font-size: 18px;
+    z-index: -1;
+}

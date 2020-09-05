@@ -1,0 +1,22 @@
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 207px;
+    padding: 1px 86px;
+}
+
+#home::before{
+    height: 586px;
+}
+#home p{
+    font-size: 16px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#h-primary{
+    font-size: 20px;
+}

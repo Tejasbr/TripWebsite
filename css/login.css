@@ -1,0 +1,11 @@
+.container{
+    margin-top: 205px;
+}
+
+.text-center{
+    padding: 6px;
+    background: black;
+    border-radius: 20px;
+    color: bisque;
+    margin-bottom: 58px;
+}

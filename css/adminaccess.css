@@ -1,0 +1,44 @@
+
+.block1::before{
+    content: "";
+    background: url('../img/main4.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 343px;
+}
+
+ul li{
+    list-style: none;
+    background: black;
+    border-radius: 23px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+a:hover{
+    color: black;
+    background-color: teal;
+}
+
+.main{
+    display: flex;
+    margin-left: 860px;
+}
+
+

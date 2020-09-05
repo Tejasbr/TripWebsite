@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: url('img/main2.jpg'); */
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 94px;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1; 
+    opacity:0.8;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    
+}
+#navbar ul li a{
+    color: wheat;
+    display: block;
+    padding: 5px 89px;
+    border-radius: 20px;
+    text-decoration: none; /* remove underline */
+    
+}
+
+
+a:hover{
+    color: black;
+    background-color: teal;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 180px;
+    align-items: center;
+    height: 501px;
+
+}
+
+#home::before{
+    content: "";
+    background: url('../img/main3.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9;
+
+}
+
+.h-primary{
+    font-size: 32px;
+    padding: 11px;
+    color: black;
+    background-color: lightgray;
+    opacity: 0.70;
+    border-radius: 83px;
+    margin-top: 81px;
+    margin-left: 33px;
+}
+.center{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.help{
+    height: 100%;
+    margin-top: 290px;
+    width: 100%;
+}
+.list{
+    width: 622px;
+    margin: 4px;
+    margin-left: 748px;
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+/* For DropDown Menu (Trip Package Button) */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.btn{
+    color: wheat;
+    display: block;
+    padding: 5px 89px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: none;
+    
+}
+
+.btn:hover{
+    color: black;
+    background-color: teal;
+}
+
+#drop-content a{
+    color: wheat;
+    display: block;
+    padding: 5px 89px;
+    border-radius: 20px;
+    text-decoration: none; 
+    margin-top: 4px;
+}
+#drop-content{
+    position: absolute;
+    z-index: -1;
+    margin-top: 12px;
+    background: black;
+    border-radius: 53px;
+}
+
+  
+ 

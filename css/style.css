@@ -1,0 +1,203 @@
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    /* background: url('img/main2.jpg'); */
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#logo{
+    margin: -11px -1px;
+}
+
+#logo img{
+    
+    width: 80px;
+    margin: 34px 45px;
+    border-radius: 80px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 94px;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    
+}
+#navbar ul li a{
+    color: wheat;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none; /* remove underline */
+    
+}
+a:hover{
+    color: black;
+    background-color: teal;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 180px;
+    align-items: center;
+    height: 501px;
+
+}
+
+#home::before{
+    content: "";
+    background: url('../img/main2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+
+}
+
+.h-primary{
+    font-size: 32px;
+    padding: 11px;
+    color: black;
+    background-color: lightgray;
+    opacity: 0.70;
+    border-radius: 83px;
+    margin-top: 81px;
+    margin-left: 33px;
+}
+
+#services{
+    margin: 96px;
+    display: flex;
+}
+
+.box{
+    border: 2px solid brown;
+    margin-top: -89px;
+    margin-left: 5px;
+    padding: 21px;
+    margin-right: 5px;
+    border-radius: 29px;
+    background-color: gainsboro;
+    opacity: 0.85;
+    width: -webkit-fill-available;
+}
+.box img{
+    height: 140px;
+    display: block;
+    margin: auto;
+}
+.services-container{
+    margin-top: 291px;
+}
+.center{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.h-secondary center{
+    display: block;
+    align-items: center;
+}
+
+.manager img{
+    height: 193px;
+    display: block;
+    margin: auto;
+    border: tan solid;
+    margin-top: -105px;
+    border-radius: 94px;
+}
+.manager{
+    border: 2px solid brown;
+    padding: 114px;
+    margin: 9px 403px 4px 403px;
+    padding-bottom: 17px;
+}
+#client-section{
+    margin-top: -89px;
+}
+.title{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* contact section */
+
+#contact{
+    position: relative;
+    margin-top: -74px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../img/main2.jpg) no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+#contact-box form{
+    width: 450px;
+}
+#contact-box label{
+    font-size: 17px;
+}
+#btn input:hover{
+    background-color: teal;
+}
+
+/* footer */
+
+footer{
+    background: black;
+    color: white;
+    padding: 12px;
+}
+
+ 
